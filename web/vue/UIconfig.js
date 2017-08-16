@@ -11,8 +11,8 @@ const CONFIG = {
   },
   ui: {
     ssl: false,
-    host: 'localhost',
-    port: 3000,
+    host: 'boxing-zed-80857.herokuapp.com',
+    port: 8080,
     path: '/'
   },
   adapter: 'sqlite'
