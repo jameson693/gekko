@@ -13,7 +13,7 @@ const CONFIG = {
   },
   ui: {
     ssl: false,
-    host: 'boxing-zed-80857.herokuapp.com',
+    host: 'localhost',
     port: port,
     path: '/'
   },
