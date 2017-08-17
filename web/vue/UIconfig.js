@@ -3,6 +3,8 @@
 
 // see https://github.com/askmike/gekko/blob/stable/docs/installing_gekko_on_a_server.md
 
+const port = process.env.PORT || 3000;
+
 const CONFIG = {
   headless: false,
   api: {
@@ -12,7 +14,7 @@ const CONFIG = {
   ui: {
     ssl: false,
     host: 'boxing-zed-80857.herokuapp.com',
-    port: 8080,
+    port: port,
     path: '/'
   },
   adapter: 'sqlite'
